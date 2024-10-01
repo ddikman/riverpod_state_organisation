@@ -6,7 +6,7 @@ A project to show how to organise state in a Riverpod project.
 
 - Updating single references instead of the entire list of items on updates
 - Invalidating a single item should invalidate that item in the list
-
+- Pre-loading several items and then refreshing single instances
 
 ## Advanced
 
