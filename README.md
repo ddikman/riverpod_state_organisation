@@ -16,6 +16,10 @@ A project to show how to organise state in a Riverpod project.
 - Eager loading by using `ref.watch` [see this](https://docs-v2.riverpod.dev/docs/essentials/eager_initialization)
 - Crud with notifier lists [see example repository](https://github.com/dhafinrayhan/dummymart)
 
+## Key concepts
+
+- A future provider will show a loader the first time it is loaded, if the value is invalidated, it will update the value when it gets it but not before that
+- An `autoDispose` provider will dispose the value when the widget is disposed (leaves screen), meaning the next time it is accessed it will be re-created
 
 ## Gotchas
 
